@@ -53,9 +53,9 @@ public class ATM implements Iterable<Dispenser> {
         denom.add(50);
         denom.add(100);
         ATM atm = new ATM(denom, "€", 10);
-        atm.withdraw(520);
+        atm.withdraw(820);
 
-        //System.out.println(atm.getBalance());
+        System.out.println(atm.getBalance());
     }
 
     @Override
